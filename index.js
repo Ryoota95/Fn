@@ -16,7 +16,7 @@ app.use(express.static(path.join(__dirname, 'src/public')))
 // route
 app.get('/', (req, res) => {
   res.render('home', {
-    name: 'Rayyan',
+    name: 'Alisa',
     role: 'student',
     location: 'Koja, jakarta utara, Indonesia',
     available: true

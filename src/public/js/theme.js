@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
   const btn = document.getElementById("darkToggle");
 
-  if (!btn) return; // jaga-jaga kalau layout beda
+  if (!btn) return; 
 
-  // load theme terakhir
+  
   if (localStorage.getItem("theme") === "dark") {
     document.body.classList.add("dark");
     btn.textContent = "☀️";
